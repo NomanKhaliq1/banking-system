@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(45, 212, 191, 0.08), transparent 25%),
+    radial-gradient(circle at 80% 10%, rgba(236, 72, 153, 0.08), transparent 22%),
+    radial-gradient(circle at 60% 60%, rgba(59, 130, 246, 0.08), transparent 30%),
+    linear-gradient(180deg, #050916 0%, #020617 55%, #01040c 100%);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

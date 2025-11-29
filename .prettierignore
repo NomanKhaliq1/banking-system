@@ -1,0 +1,8 @@
+node_modules
+.next
+.turbo
+.vercel
+out
+build
+coverage
+package-lock.json

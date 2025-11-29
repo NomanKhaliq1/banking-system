@@ -1,0 +1,13 @@
+{
+  "title": "PulsePay Live — Realtime Banking Demo",
+  "description": "Pool-first banking sandbox built on Next.js 14 + Supabase (Auth, Postgres, Realtime, RPC). Admin console: set pool total, grant/return funds, adjust user balance, freeze/unfreeze, set limits, mark KYC verified, flag transactions, and review audit with counterparty details, search, pagination, and fullscreen tables. User side: register/login, auto account creation, live balance/held view, transfers with limits/freeze enforcement, beneficiaries quick-fill, notifications feed (credits, debits, freezes, limits), and realtime activity stream without reloads. Backend: all money moves via stored procedures (allocate_from_pool, return_to_pool, transfer_between_users, admin_adjust_user_balance), audit + notifications on every action, RLS on accounts/transactions/notifications, and Supabase realtime channels for accounts/transactions/notifications so UI updates instantly.",
+  "techTags": ["Next.js", "TypeScript", "TailwindCSS", "Supabase", "Postgres", "RPC"],
+  "source": "github",
+  "category": "Fintech",
+  "live_url": "",
+  "repo_name": "NomanKhaliq1/banking-system",
+  "repo_link": true,
+  "image": "/projects/pulsepay-full.webp",
+  "thumbnail": "/projects/pulsepay-card.webp",
+  "fetch": true
+}
