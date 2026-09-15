@@ -9,5 +9,6 @@
   "repo_link": true,
   "image": "/projects/pulsepay-full.webp",
   "thumbnail": "/projects/pulsepay-card.webp",
+  "featured": true,
   "fetch": true
 }
